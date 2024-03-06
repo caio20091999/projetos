@@ -1,4 +1,4 @@
-alert('Seja bem vindo a sua lista de tarefas')
+
 
 const button = document.querySelector('.button-add-task')
 const input = document.querySelector('.input-task')
