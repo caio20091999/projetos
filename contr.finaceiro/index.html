@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Controle de gasto-login</title>
 </head>
 
@@ -21,17 +22,17 @@
 
             <div>
                 <div><label for="email">email</label></div>
-                <input type="email" name="email" placeholder="digite seu email">
+                <input type="email" name="email" id="email" onchange="validateFields()"   placeholder="digite seu email">
             </div>
             <div>
                 <div><label for="senha">senha</label></div>
                 <input type="password" name="password" placeholder="digite sua senha">
             </div>
             <div>
-                <button type="button" class="clear">Recupera senha</button>
+                <button type="button" class="clear" id="recover-password-button"  disabled="true">Recupera senha</button>
             </div>
             <div>
-                <button type="button">Entra</button>
+                <button type="button" class="solid" disabled="true">Entra</button>
             </div>
             <div>
                 <button type="button" class="autline">Registra</button>
