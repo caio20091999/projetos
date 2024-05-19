@@ -1,0 +1,54 @@
+* {
+    body {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .titulo {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+
+    }
+
+    form {
+        width: 300px;
+    }
+
+    input,
+    button {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        width: -webkit-fill-available;
+
+    }
+
+    button {
+        cursor: pointer;
+
+    }
+
+    .clear {
+        background: transparent;
+        border: none;
+    }
+
+    .autline {
+        background: transparent;
+        color: black;
+        border: 1px solid white;
+    }
+
+    .container {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        left: 150px;
+        width: 350px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
