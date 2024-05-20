@@ -17,22 +17,23 @@
         <div class="container">
 
             <div class="titulo">
-                <h1>Controle.Easy</h1>
+                <h1><span>Controle.Easy</span></h1>
             </div>
 
             <div>
                 <div><label for="email">email</label></div>
-                <input type="email" name="email" id="email" onchange="validateFields()"   placeholder="digite seu email">
+                <input type="email" name="email" id="email" onchange="validateFields()" placeholder="digite seu email">
             </div>
             <div>
                 <div><label for="senha">senha</label></div>
-                <input type="password" name="password" placeholder="digite sua senha">
+                <input type="password" name="password" id="password" onchange="validateFields()"
+                    placeholder="digite sua senha">
             </div>
             <div>
-                <button type="button" class="clear" id="recover-password-button"  disabled="true">Recupera senha</button>
+                <button type="button" class="clear" id="recover-password-button" disabled="true">Recupera senha</button>
             </div>
             <div>
-                <button type="button" class="solid" disabled="true">Entra</button>
+                <button type="button" class="solid" id="login-button" disabled="true">Entra</button>
             </div>
             <div>
                 <button type="button" class="autline">Registra</button>
