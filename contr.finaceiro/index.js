@@ -27,7 +27,7 @@ function validateFields() {
     }
 
     function isPasswordValid() {
-        const password = Document.getElementById('Ispassword').value;
+        const password = Document.getElementById('password').value;
         if (!password) {
             return false;
         }
