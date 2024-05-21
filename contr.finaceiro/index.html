@@ -23,11 +23,14 @@
             <div>
                 <div><label for="email">email</label></div>
                 <input type="email" name="email" id="email" onchange="validateFields()" placeholder="digite seu email">
+                <div class="erro">Email é obrigatorio</div>
+                <div class="erro">Email é invalido</div>
             </div>
             <div>
                 <div><label for="senha">senha</label></div>
                 <input type="password" name="password" id="password" onchange="validateFields()"
                     placeholder="digite sua senha">
+                    <div class="erro">Senha é obrigatoria</div>
             </div>
             <div>
                 <button type="button" class="clear" id="recover-password-button" disabled="true">Recupera senha</button>

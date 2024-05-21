@@ -13,6 +13,10 @@ function validateFields() {
         return validateEmail(email);
     }
 
+    function toggleEmailErrors() {
+        
+    }
+
     function isPasswordValid() {
         const password = document.getElementById('password').value;
         if (!password) {
