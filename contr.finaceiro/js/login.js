@@ -9,11 +9,9 @@ function logar(){
         window.alert('Usuario ou senha incorretos');
     }
 
-    function registrar(){
-        var login = document.getElementById('registra-se').value;
-        location.href="registra-se.html"
+    function register (){
+        window.location.href="register.html"
     }
-
 
 
 }
