@@ -9,18 +9,19 @@ body{
 }
 
 form{
-    width: 500px;
-    height: 250px;
-    margin: 200px auto;
-    border-radius: 50px;
+    width: 560px;
+    height: 300px;
+    margin: 250px auto;
     text-align: center;
     background-color: white;
+    border-radius: 15px;
+
 }
 
 input{
     display: block;
     margin: 10px auto;
-    width: 250px;
+    width: 350px;
     height: 30px;
     border-radius: 10px;
 }
