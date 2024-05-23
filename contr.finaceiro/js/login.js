@@ -9,9 +9,9 @@ function logar() {
         window.alert('Usuario ou senha incorretos');
     }
 
-    function register() {
-        window.location.href = "/contr.finaceiro/html/register.html"
-    }
 
 
+}
+function register() {
+    location.href="/contr.finaceiro/html/register.html"
 }
